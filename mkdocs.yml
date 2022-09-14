@@ -1,0 +1,51 @@
+site_name: packaging-proposal
+
+repo_url: https://github.com/pederhan/packaging-proposal
+repo_name: pederhan/packaging-proposal
+edit_uri: edit/main/docs/
+
+theme:
+  name: "material"
+  language: en
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - footnotes
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - index.md
+  - pyproject.md
+  - "Tools":
+      - tools/index.md
+      - "All-in-One Tools":
+          - tools/all-in-one/index.md
+          - tools/all-in-one/pipenv.md
+          - tools/all-in-one/poetry.md
+          - tools/all-in-one/pdm.md
+      - "Specialized Tools":
+          - tools/specialized/index.md
+          - tools/specialized/flit.md
+          - tools/specialized/hatch.md
+          - tools/specialized/pip-tools.md

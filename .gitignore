@@ -1,0 +1,9 @@
+# Private markdown files
+*/_*.md
+
+# PDM
+.venv/
+.pdm.toml
+
+# MacOS
+.DS_Store
