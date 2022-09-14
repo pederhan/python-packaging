@@ -1,12 +1,12 @@
 
 # Improving Python Project Packaging
 
-This document outlines the current state of the art for Python packaging tooling and aims to propose a set of changes to current and future Python projects to improve the development experience and make it easier to develop and publish Python packages.
+This document outlines the current state of the art for Python dependency management and packaging tooling, and aims to propose a set of changes to current and future Python projects to improve the development experience and make it easier to develop and publish Python packages.
 
 
 ## Abstract
 
-Python packaging and practices for managing development environments have changed significantly over the past few years. Modern developments such as `pyproject.toml`, and more advanced dependency resolvers, virtual environment, building, and publising tooling allows for a more streamlined and unified development experience. To achieve this, a number of tools are evaluated and compared, and a set of recommendations are proposed for the future of our Python packaging workflow.
+Python packaging and practices for managing development environments have changed significantly over the past few years. Modern developments such as `pyproject.toml`, and more advanced dependency resolvers, virtual environment, building, and publising tooling allows for a more streamlined and unified development experience. To achieve this, a number of tools are evaluated and compared, and a set of recommendations are proposed for the future of our Python project packaging and dependency management.
 
 
 
