@@ -1,5 +1,5 @@
 [project]
-name = "packaging-proposal"
+name = "python-packaging"
 version = "1.0.0"
 description = ""
 authors = [{ name = "pederhan", email = "pederhan@uio.no" }]
@@ -14,9 +14,9 @@ classifiers = [
 ]
 
 [project.urls]
-homepage = "https://example.com"
-repository = "https://github.com/user/example"
-documentation = "https://example.com/docs"
+homepage = "https://github.com/pederhan/python-packaging"
+repository = "https://github.com/pederhan/python-packaging"
+documentation = "https://pederhan.github.io/python-packaging/"
 
 [project.optional-dependencies]
 docs = ["mkdocstrings>=0.19.0"]
