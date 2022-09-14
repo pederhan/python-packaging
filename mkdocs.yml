@@ -1,7 +1,7 @@
-site_name: packaging-proposal
+site_name: python-packaging
 
-repo_url: https://github.com/pederhan/packaging-proposal
-repo_name: pederhan/packaging-proposal
+repo_url: https://github.com/pederhan/python-packaging
+repo_name: pederhan/python-packaging
 edit_uri: edit/main/docs/
 
 theme:
